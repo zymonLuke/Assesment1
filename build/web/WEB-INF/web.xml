@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <servlet>
+        <servlet-name>AppController</servlet-name>
+        <servlet-class>AppController</servlet-class>
+        <init-param>
+            <param-name>jdbcClassName</param-name>
+            <param-value>com.mysql.cj.jdbc.Driver</param-value>
+        </init-param>
+        <init-param>
+            <param-name>dbUserName</param-name>
+            <param-value>root</param-value>
+        </init-param>
+        <init-param>
+            <param-name>dbPassword</param-name>
+            <param-value>root</param-value>
+        </init-param>
+        <init-param>
+            <param-name>jdbcDriverURL</param-name>
+            <param-value>jdbc:mysql</param-value>
+        </init-param>
+        <init-param>
+            <param-name>dbHostName</param-name>
+            <param-value>localhost</param-value>
+        </init-param>
+        <init-param>
+            <param-name>dbPort</param-name>
+            <param-value>3306</param-value>
+        </init-param>
+        <init-param>
+            <param-name>databaseName</param-name>
+            <param-value>dormdb?useSSL=false</param-value>
+        </init-param>
+    </servlet>
+    
+    
+    
+    <servlet>
+        <servlet-name>AddListing</servlet-name>
+        <servlet-class>AddListing</servlet-class>
+        <init-param>
+            <param-name>jdbcClassName</param-name>
+            <param-value>com.mysql.cj.jdbc.Driver</param-value>
+        </init-param>
+        <init-param>
+            <param-name>dbUserName</param-name>
+            <param-value>root</param-value>
+        </init-param>
+        <init-param>
+            <param-name>dbPassword</param-name>
+            <param-value>root</param-value>
+        </init-param>
+        <init-param>
+            <param-name>jdbcDriverURL</param-name>
+            <param-value>jdbc:mysql</param-value>
+        </init-param>
+        <init-param>
+            <param-name>dbHostName</param-name>
+            <param-value>localhost</param-value>
+        </init-param>
+        <init-param>
+            <param-name>dbPort</param-name>
+            <param-value>3306</param-value>
+        </init-param>
+        <init-param>
+            <param-name>databaseName</param-name>
+            <param-value>dormdb?useSSL=false</param-value>
+        </init-param>
+
+    </servlet>
+    
+    
+    
+    <servlet>
+        <servlet-name>RemoveListing</servlet-name>
+        <servlet-class>RemoveListing</servlet-class>
+        <init-param>
+            <param-name>jdbcClassName</param-name>
+            <param-value>com.mysql.cj.jdbc.Driver</param-value>
+        </init-param>
+        <init-param>
+            <param-name>dbUserName</param-name>
+            <param-value>root</param-value>
+        </init-param>
+        <init-param>
+            <param-name>dbPassword</param-name>
+            <param-value>root</param-value>
+        </init-param>
+        <init-param>
+            <param-name>jdbcDriverURL</param-name>
+            <param-value>jdbc:mysql</param-value>
+        </init-param>
+        <init-param>
+            <param-name>dbHostName</param-name>
+            <param-value>localhost</param-value>
+        </init-param>
+        <init-param>
+            <param-name>dbPort</param-name>
+            <param-value>3306</param-value>
+        </init-param>
+        <init-param>
+            <param-name>databaseName</param-name>
+            <param-value>dormdb?useSSL=false</param-value>
+        </init-param>
+
+    </servlet>
+    
+    
+    
+    <servlet>
+        <servlet-name>UpdateListing</servlet-name>
+        <servlet-class>UpdateListing</servlet-class>
+        <init-param>
+            <param-name>jdbcClassName</param-name>
+            <param-value>com.mysql.cj.jdbc.Driver</param-value>
+        </init-param>
+        <init-param>
+            <param-name>dbUserName</param-name>
+            <param-value>root</param-value>
+        </init-param>
+        <init-param>
+            <param-name>dbPassword</param-name>
+            <param-value>root</param-value>
+        </init-param>
+        <init-param>
+            <param-name>jdbcDriverURL</param-name>
+            <param-value>jdbc:mysql</param-value>
+        </init-param>
+        <init-param>
+            <param-name>dbHostName</param-name>
+            <param-value>localhost</param-value>
+        </init-param>
+        <init-param>
+            <param-name>dbPort</param-name>
+            <param-value>3306</param-value>
+        </init-param>
+        <init-param>
+            <param-name>databaseName</param-name>
+            <param-value>dormdb?useSSL=false</param-value>
+        </init-param>
+
+    </servlet>
+    
+    
+    
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>Login</servlet-class>
+        <init-param>
+            <param-name>jdbcClassName</param-name>
+            <param-value>com.mysql.cj.jdbc.Driver</param-value>
+        </init-param>
+        <init-param>
+            <param-name>dbUserName</param-name>
+            <param-value>root</param-value>
+        </init-param>
+        <init-param>
+            <param-name>dbPassword</param-name>
+            <param-value>root</param-value>
+        </init-param>
+        <init-param>
+            <param-name>jdbcDriverURL</param-name>
+            <param-value>jdbc:mysql</param-value>
+        </init-param>
+        <init-param>
+            <param-name>dbHostName</param-name>
+            <param-value>localhost</param-value>
+        </init-param>
+        <init-param>
+            <param-name>dbPort</param-name>
+            <param-value>3306</param-value>
+        </init-param>
+        <init-param>
+            <param-name>databaseName</param-name>
+            <param-value>dormdb?useSSL=false</param-value>
+        </init-param>
+
+    </servlet>
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>Logout</servlet-class>
+    </servlet>
+    
+    
+    <context-param>
+        <param-name>Footer-Value1</param-name>
+        <param-value>University of Santo Tomas</param-value>
+    </context-param>
+    <context-param>
+        <param-name>Footer-Value2</param-name>
+        <param-value>Zymon Malonzo</param-value>
+    </context-param>
+    <context-param>
+        <param-name>Header-Value1</param-name>
+        <param-value>CITY DORM FINDER</param-value>
+    </context-param>
+    <context-param>
+        <param-name>Header-Value2</param-name>
+        <param-value>Find Dorm</param-value>
+    </context-param>
+    <context-param>
+        <param-name>Header-Value3</param-name>
+        <param-value>Manage Listings</param-value>
+    </context-param>
+    <context-param>
+        <param-name>Header-Value4</param-name>
+        <param-value>Add Listing</param-value>
+    </context-param>
+    <context-param>
+        <param-name>Header-Value5</param-name>
+        <param-value>Remove Listings</param-value>
+    </context-param>
+    <context-param>
+        <param-name>Header-Value6</param-name>
+        <param-value>Update Listings</param-value>
+    </context-param>
+    
+    
+    <error-page>
+        <exception-type>java.sql.Exception</exception-type>
+        <location>/error/SQLExceptionError.jsp</location>
+    </error-page>
+    <error-page>
+        <exception-type>java.lang.NullPointerException</exception-type>
+        <location>/error/error.jsp</location>
+    </error-page>
+
+
+
+    <servlet-mapping>
+        <servlet-name>AppController</servlet-name>
+        <url-pattern>/AppController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddListing</servlet-name>
+        <url-pattern>/AddListing</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RemoveListing</servlet-name>
+        <url-pattern>/RemoveListing</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UpdateListing</servlet-name>
+        <url-pattern>/UpdateListing</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
